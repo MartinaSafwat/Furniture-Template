@@ -1,0 +1,54 @@
+/* small device */
+
+@media(min-width:300px) and (max-width:767px){
+
+    .working .img-2{
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+   .about h1{
+       font-size: 25px;
+   }
+    .about .paragraph,.about p{
+        font-size: 13px;
+    }
+    .about h5{
+        margin-top: 10px;
+    }
+    .service p {
+        margin-bottom: 25px;
+    }
+    .team img{
+        margin-top: -15px;
+    }
+    .working {
+        margin-top: 0;
+    }
+
+    .contact .info{
+        border-right: none;
+    }
+    .contact p {
+     
+        font-size: 20px;
+    }
+    .portfolio .btn-portfolio{
+        font-size: 10px;
+        width: 60px;
+        margin-left:0 ;
+    }
+
+
+
+}
+
+
+
+
+
+
+@media(min-width:992px){
+    .contact p{
+        font-size: 11px;
+    }
+}
